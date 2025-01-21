@@ -3,13 +3,14 @@ from django.db import models
 
 
 class User(AbstractUser):
+    ''' Модель пользователя'''
 
     username = None
 
     email = models.EmailField(unique=True, verbose_name="Почта")
 
     tg_chat_id = models.CharField(
-        max_length=50, blank=True, null=True, verbose_name="Телеграм chat-id"
+        max_length=50, blank=True, null=True, verbose_name="Телеграм id"
     )
 
     USERNAME_FIELD = "email"
