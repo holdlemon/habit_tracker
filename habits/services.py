@@ -4,6 +4,7 @@ from config.settings import BOT_TOKEN
 
 
 def send_message(message, chat_id):
+    ''' Сервисная функция для отправки сообщения в Телеграмм '''
     params = {
         "text": message,
         "chat_id": chat_id,

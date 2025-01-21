@@ -5,7 +5,8 @@ from config.settings import AUTH_USER_MODEL
 
 class Habits(models.Model):
     '''Модель привычки'''
-    user = models.ForeignKey(AUTH_USER_MODEL, on_delete=models.CASCADE,blank=True, null=True, verbose_name='Пользователь')
+
+    user = models.ForeignKey(AUTH_USER_MODEL, on_delete=models.CASCADE, blank=True, null=True, verbose_name='Пользователь')
     place = models.CharField(max_length=255, verbose_name='Место')
     time = models.TimeField(verbose_name='Время')
     action = models.CharField(max_length=255, verbose_name='Действие')

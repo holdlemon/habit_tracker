@@ -6,6 +6,7 @@ from habits.validators import validate_execution_time, validate_periodicity, val
 
 
 class HabitsSerializer(serializers.ModelSerializer):
+    ''' Сериализатор для привычки '''
 
     # Подключаем валидатор
     def validate(self, data):
