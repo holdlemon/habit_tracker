@@ -1,0 +1,130 @@
+[
+{
+    "model": "habits.habits",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "place": "Дома",
+        "time": "12:00:00",
+        "action": "Встать с кровати",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": null,
+        "execution_time": 60,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habits",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "place": "На улице",
+        "time": "12:30:00",
+        "action": "Гулять на свежем воздухе",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": null,
+        "execution_time": 60,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habits",
+    "pk": 3,
+    "fields": {
+        "user": 5,
+        "place": "В зале",
+        "time": "20:00:00",
+        "action": "Заниматься спортом",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": null,
+        "execution_time": 60,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habits",
+    "pk": 4,
+    "fields": {
+        "user": 6,
+        "place": "Дома",
+        "time": "22:00:00",
+        "action": "Спать",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": "Здоровье",
+        "execution_time": 60,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habits",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "place": "Дома",
+        "time": "21:00:00",
+        "action": "Попить воды",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": "Здоровье",
+        "execution_time": 60,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habits",
+    "pk": 6,
+    "fields": {
+        "user": 5,
+        "place": "Дома",
+        "time": "20:00:00",
+        "action": "Читать книгу",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": "Знания",
+        "execution_time": 60,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habits",
+    "pk": 13,
+    "fields": {
+        "user": 5,
+        "place": "Дома",
+        "time": "19:20:00",
+        "action": "Отдыхать",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": null,
+        "execution_time": 60,
+        "is_public": false
+    }
+},
+{
+    "model": "habits.habits",
+    "pk": 15,
+    "fields": {
+        "user": 5,
+        "place": "Дома",
+        "time": "19:26:00",
+        "action": "Отдыхать",
+        "is_pleasant": false,
+        "related_habit": null,
+        "periodicity": 1,
+        "award": null,
+        "execution_time": 60,
+        "is_public": false
+    }
+}
+]
